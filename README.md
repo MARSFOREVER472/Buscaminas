@@ -1,2 +1,3 @@
 # Buscaminas
-Cómo programar un buscaminas en JavaScript.
+
+## Cómo programar un buscaminas en JavaScript.
