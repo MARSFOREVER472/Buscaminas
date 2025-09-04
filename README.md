@@ -1,3 +1,3 @@
-# Buscaminas
+# **_Buscaminas_**
 
-## Cómo programar un buscaminas en JavaScript.
+## **_Cómo programar un buscaminas en JavaScript_**
