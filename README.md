@@ -4,7 +4,8 @@
 
 **_Este artículo es sobre todo para los hijos, sobrinos y demás gentes que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo voy a enseñar a hacer un juego muy simple de cero._**
 
-1. Introducción.
+## 1. Introducción
+
 ¿por qué un Buscaminas? es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que pintar una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla.
 
 ### Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript...
