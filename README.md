@@ -10,9 +10,9 @@
 
 ### **_Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript..._**
 
-- HTML es la maquetación. Es como en un periódico: defines las columnas, los titulares, el la entradilla, los pies de foto, imágenes, etc…
-- Con CSS le das estilos: tipo de letra, colores, márgenes, etc…
-- Con JavaScript coges esos elementos básicos y haces cosas con ellos: los mueves, los transformas, les cambias su aspecto, etc…
+- **_HTML es la maquetación. Es como en un periódico: defines las columnas, los titulares, el la entradilla, los pies de foto, imágenes, etc…_**
+- **_Con CSS le das estilos: tipo de letra, colores, márgenes, etc…_**
+- **_Con JavaScript coges esos elementos básicos y haces cosas con ellos: los mueves, los transformas, les cambias su aspecto, etc…_**
 
 ### **_En este tutorial veremos cómo:_**
 
