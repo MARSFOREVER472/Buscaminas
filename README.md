@@ -6,7 +6,7 @@
 
 ## 1. Introducción
 
-¿por qué un Buscaminas? es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que pintar una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla.
+¿Por qué un Buscaminas? es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que pintar una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla.
 
 ### Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript...
 
@@ -16,6 +16,6 @@
 
 ### En este tutorial veremos cómo:
 
-- dibujar en pantalla el tablero con HTML y CSS
-- implementar la lógica del juego en JavaScript
-- vincular eventos del ratón a acciones concretas
+- Dibujar en pantalla el tablero con HTML y CSS.
+- Implementar la lógica del juego en JavaScript.
+- Vincular eventos del ratón a acciones concretas.
