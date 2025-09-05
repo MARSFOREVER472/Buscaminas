@@ -25,15 +25,18 @@ En un directorio, creamos un archivo de texto llamado buscaminas.html
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>BSCMNS</title>
-  <link href="css/estilos.css" type="text/css" rel="stylesheet">
-  <meta charset="UTF-8">
-  <script language="JavaScript" src="js/funciones.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
+    <script src="buscaminas.js"></script>
+    
 </body>
 </html>
 ```
