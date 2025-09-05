@@ -1,8 +1,13 @@
 // FUNCIONES A DECLARAR EN ESTE APARTADO...
 
+// FUNCIÓN PARA ILUSTRAR EL TABLERO DEL JUEGO...
+
 function paintBoard(rowNumbers, columnNumbers)
 {
     let board = document.querySelector("#board");
+
+    document.querySelector("html").style.setProperty("--row-num", rowNumbers);
+    document.querySelector("html").style.setProperty("--col-num", columnNumbers);
 
     for (let i = 0; i < rowNumbers; i++)
     {

@@ -1,8 +1,15 @@
+:root
+{
+    --col-num: 10;
+    --row-num: 10;
+    --size: 32px;
+}
+
 #board
 {
     display: grid;
-    grid-template-columns: repeat(4, 32px);
-    grid-template-rows: repeat(3, 32px);
+    grid-template-columns: repeat(var(--col-num), var(--size));
+    grid-template-rows: repeat(var(--row-num), var(--size));
 }
 
 #board div
@@ -13,5 +20,5 @@
     border-right: 2px solid #A9A9A9;
     border-bottom: 2px solid #A9A9A9;
     text-align: center;
-    line-height: 32px;
+    line-height: var(--size);
 }
