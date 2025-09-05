@@ -21,7 +21,8 @@
 - **_Vincular eventos del ratón a acciones concretas._**
 
 ## 2. Nuestra página HTML
-En un directorio, creamos un archivo de texto llamado buscaminas.html
+
+**_En un directorio, creamos un archivo de texto llamado buscaminas.html_**
 
 ```
 <!DOCTYPE html>
