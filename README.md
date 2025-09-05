@@ -23,6 +23,7 @@
 2. Nuestra página HTML
 En un directorio, creamos un archivo de texto llamado buscaminas.html
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,6 +36,8 @@ En un directorio, creamos un archivo de texto llamado buscaminas.html
   
 </body>
 </html>
+```
+
 Esto es una página web vacía.
 
 En la cabecera vemos que tenemos un título llamado BSCMNS
