@@ -19,3 +19,35 @@
 - **_Dibujar en pantalla el tablero con HTML y CSS._**
 - **_Implementar la lógica del juego en JavaScript._**
 - **_Vincular eventos del ratón a acciones concretas._**
+
+## 2. Nuestra página HTML
+
+**_En un directorio, creamos un archivo de texto llamado buscaminas.html_**
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscaminas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="buscaminas.js"></script>
+    
+</body>
+</html>
+```
+
+Esto es una página web vacía.
+
+En la cabecera vemos que tenemos un título llamado BSCMNS
+
+Indicamos una hoja de estilos que está en un subdirectorio “css/estilos.css” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”
+
+De momento esos archivos no existen, pero ahora los crearemos.
+
+Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le animo a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia.
