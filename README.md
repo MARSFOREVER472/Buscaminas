@@ -22,7 +22,7 @@
 
 ## **_2. Nuestra página HTML_**
 
-**_En un directorio, creamos un archivo de texto llamado buscaminas.html_**
+**_En un directorio, creamos un archivo de texto llamado ```buscaminas.html```_**
 
 ```
 <!DOCTYPE html>
