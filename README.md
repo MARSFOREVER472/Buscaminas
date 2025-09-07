@@ -44,7 +44,7 @@
 
 Esto es una página web vacía.
 
-En la cabecera vemos que tenemos un título llamado BSCMNS
+En la cabecera vemos que tenemos un título llamado Buscaminas.
 
 Indicamos una hoja de estilos que está en un subdirectorio “css/estilos.css” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”
 
