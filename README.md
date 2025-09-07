@@ -20,7 +20,7 @@
 - **_Implementar la lógica del juego en JavaScript._**
 - **_Vincular eventos del ratón a acciones concretas._**
 
-## 2. Nuestra página HTML
+## **_2. Nuestra página HTML_**
 
 **_En un directorio, creamos un archivo de texto llamado buscaminas.html_**
 
