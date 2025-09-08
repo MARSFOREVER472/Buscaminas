@@ -6,6 +6,15 @@ function paintBoard(rowNumbers, columnNumbers)
 {
     let board = document.querySelector("#board");
 
+    const buscaminas = 
+    {
+        maxNumberMines : 30,
+        numberMinesFounded : 0,
+        rowNumbers: 15,
+        columnNumbers: 15,
+        mineFields: []
+    };
+
     document.querySelector("html").style.setProperty("--row-num", rowNumbers);
     document.querySelector("html").style.setProperty("--col-num", columnNumbers);
 
@@ -21,16 +30,16 @@ function paintBoard(rowNumbers, columnNumbers)
             newDiv.addEventListener("click", uncover); // EVENTO CON EL BOTÓN IZQUIERDO DEL RATÓN.
             board.appendChild(newDiv);
 
-            
+            /*
 
             while (board.firstChild)
             {
                 // board.firstChild.removeEventListener("contextmenu", tag);
                 // board.firstChild.removeEventListener("click", uncover);
-                board.removeChild(board.firstChild);
+                // board.removeChild(board.firstChild);
             }
             
-            
+            */
         }
     }
 }
