@@ -17,7 +17,7 @@
 ### **_En este tutorial veremos cómo:_**
 
 - **_Dibujar en pantalla el tablero con archivos HTML y CSS._**
-- **_Implementar la lógica del juego en JavaScript._**
+- **_Implementar la lógica del juego utilizando JavaScript._**
 - **_Vincular eventos del ratón a acciones concretas._**
 
 ## **_2. Nuestra página HTML_**
