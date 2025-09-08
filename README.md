@@ -46,7 +46,7 @@
 
 - **_En la cabecera vemos que tenemos un título llamado Buscaminas._**
 
-- **_Indicamos una hoja de estilos que está en un subdirectorio “```css/estilos.css```” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”_**
+- **_Indicamos una hoja de estilos que está en un subdirectorio “```css/estilos.css```” y un archivo de JavaScript en otro subdirectorio “```js/funciones.js```”_**
 
 - **_De momento esos archivos no existen, pero ahora los crearemos._**
 
