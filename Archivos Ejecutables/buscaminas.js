@@ -23,3 +23,13 @@ function paintBoard(rowNumbers, columnNumbers)
         }
     }
 }
+
+function tag(e)
+{
+
+}
+
+function uncover(e)
+{
+    
+}
