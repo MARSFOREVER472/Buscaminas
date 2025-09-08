@@ -42,12 +42,12 @@
 </html>
 ```
 
-- Éste es una página web vacía.
+- **_Éste es una página web vacía._**
 
-- En la cabecera vemos que tenemos un título llamado Buscaminas.
+- **_En la cabecera vemos que tenemos un título llamado Buscaminas._**
 
-- Indicamos una hoja de estilos que está en un subdirectorio “css/estilos.css” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”
+- **_Indicamos una hoja de estilos que está en un subdirectorio “css/estilos.css” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”_**
 
-- De momento esos archivos no existen, pero ahora los crearemos.
+- **_De momento esos archivos no existen, pero ahora los crearemos._**
 
-- Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le animo a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia.
+- **_Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le animo a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
