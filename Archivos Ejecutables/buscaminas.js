@@ -20,6 +20,17 @@ function paintBoard(rowNumbers, columnNumbers)
             newDiv.addEventListener("contextmenu", tag); // EVENTO CON EL BOTÓN DERECHO DEL RATÓN.
             newDiv.addEventListener("click", uncover); // EVENTO CON EL BOTÓN IZQUIERDO DEL RATÓN.
             board.appendChild(newDiv);
+
+            
+
+            while (board.firstChild)
+            {
+                // board.firstChild.removeEventListener("contextmenu", tag);
+                // board.firstChild.removeEventListener("click", uncover);
+                board.removeChild(board.firstChild);
+            }
+            
+            
         }
     }
 }
@@ -31,5 +42,5 @@ function tag(e)
 
 function uncover(e)
 {
-    
+
 }
