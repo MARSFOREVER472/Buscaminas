@@ -1,8 +1,8 @@
 # **_Buscaminas_**
 
-## **_Cómo programar un buscaminas en JavaScript_**
+## **_Cómo programar un Buscaminas en JavaScript_**
 
-**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo voy a enseñar a hacer un juego muy simple de cero._**
+**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple de cero._**
 
 ## **_1. Introducción_**
 
@@ -10,19 +10,19 @@
 
 ### **_Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript..._**
 
-- **_HTML es la maquetación. Es como en un periódico: defines las columnas, los titulares, el la entradilla, los pies de foto, imágenes, etc…_**
+- **_HTML es la maquetación. Es como dentro de un periódico: defines las columnas, los titulares, la entradilla, los pies de foto, imágenes, etc…_**
 - **_Con CSS le das estilos: tipo de letra, colores, márgenes, etc…_**
 - **_Con JavaScript coges esos elementos básicos y haces cosas con ellos: los mueves, los transformas, les cambias su aspecto, etc…_**
 
 ### **_En este tutorial veremos cómo:_**
 
-- **_Dibujar en pantalla el tablero con HTML y CSS._**
-- **_Implementar la lógica del juego en JavaScript._**
+- **_Dibujar en pantalla el tablero con archivos HTML y CSS._**
+- **_Implementar la lógica del juego utilizando JavaScript._**
 - **_Vincular eventos del ratón a acciones concretas._**
 
-## 2. Nuestra página HTML
+## **_2. Nuestra página HTML_**
 
-**_En un directorio, creamos un archivo de texto llamado buscaminas.html_**
+**_En un directorio, creamos un archivo de texto llamado ```buscaminas.html```_**
 
 ```
 <!DOCTYPE html>
@@ -42,12 +42,12 @@
 </html>
 ```
 
-Esto es una página web vacía.
+- **_Éste es una página web vacía._**
 
-En la cabecera vemos que tenemos un título llamado BSCMNS
+- **_En la cabecera vemos que tenemos un título llamado Buscaminas._**
 
-Indicamos una hoja de estilos que está en un subdirectorio “css/estilos.css” y un archivo de JavaScript en otro subdirectorio “js/funciones.js”
+- **_Indicamos una hoja de estilos que está en un subdirectorio “```css/estilos.css```” y un archivo de JavaScript en otro subdirectorio “```js/funciones.js```”_**
 
-De momento esos archivos no existen, pero ahora los crearemos.
+- **_De momento esos archivos no existen, pero ahora los crearemos._**
 
-Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le animo a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia.
+- **_Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le animo a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
