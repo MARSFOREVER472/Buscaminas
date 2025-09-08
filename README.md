@@ -42,7 +42,7 @@
 </html>
 ```
 
-- Esto es una página web vacía.
+- Éste es una página web vacía.
 
 - En la cabecera vemos que tenemos un título llamado Buscaminas.
 
