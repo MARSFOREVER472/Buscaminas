@@ -44,6 +44,18 @@ function paintBoard(rowNumbers, columnNumbers)
     }
 }
 
+function generateEmptymineField()
+{
+    // GENERAMOS EL CAMPO DE MINAS EN EL OBJETO "buscaminas"...
+
+    buscaminas.mineFields = new Array(buscaminas.rowNumbers);
+
+    for (let row = 0; row < buscaminas.rowNumbers; row++)
+    {
+        buscaminas.mineFields[row] = new Array(buscaminas.columnNumbers);
+    }
+}
+
 function tag(e)
 {
 
