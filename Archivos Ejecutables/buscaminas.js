@@ -56,6 +56,37 @@ function generateEmptymineField()
     }
 }
 
+function shuffleMines()
+{
+    // REPARTIMOS DE FORMA ALEATORIA LAS MINAS...
+
+    let shuffleMinesNumbers = 0;
+
+    while (shuffleMinesNumbers < buscaminas.maxNumberMines)
+    {
+        // NÚMERO ALEATORIO DENTRO DEL INTERVALO [0, rowNumbers - 1]
+
+        let row = Math.floor(Math.random() * buscaminas.rowNumbers);
+
+        // NÚMERO ALEATORIO DENTRO DEL INTERVALO [0, columnNumbers - 1]
+
+        let column = Math.floor(Math.random() * buscaminas.columnNumbers);
+
+        // SI NO HAY UNA BOMBA EN ESTA POSICIÓN...
+
+        if (buscaminas.mineFields[row][column] != "B")
+        {
+            // LA COLOCAMOS AQUÍ...
+
+            buscaminas.mineFields[row][column] = "B";
+
+            // E INCREMENTAMOS EL VALOR EN 1 A LAS MINAS ESPARCIDAS...
+
+            shuffleMinesNumbers++;
+        }
+    }
+}
+
 function tag(e)
 {
 
