@@ -87,6 +87,36 @@ function shuffleMines()
     }
 }
 
+function countMinesAroundPerGrid(row, column)
+{
+    let numberMinesAround = 0;
+
+    // DE LA FILA ANTERIOR A LA POSTERIOR...
+
+    for (let zRow = row - 1; zRow <= row + 1; zRow++)
+    {
+        // DE LA COLUMNA ANTERIOR A LA POSTERIOR...
+
+        for (let zColumn = column - 1; zColumn <= column + 1; zColumn++)
+        {
+
+            // SI LA CASILLA CAE DENTRO DEL TABLERO...
+
+            if (zRow > -1 && zRow < buscaminas.rowNumbers && zColumn > -1 && zColumn < buscaminas.columnNumbers)
+            {
+                // MIRAMOS SI EN ESA POSICIÓN HAY UNA BOMBA...
+
+                if (buscaminas.mineFields[zRow][zColumn] == "B")
+                {
+                    // Y SUMAMOS 1 AL NÚMERO DE MINAS QUE HAY ALREDEDOR DE ESA CASILLA...
+
+                    numberMinesAround++;
+                }
+            }
+        }
+    }
+}
+
 function tag(e)
 {
 
