@@ -2,7 +2,7 @@
 
 ## **_Cómo programar un Buscaminas usando JavaScript_**
 
-**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple de cero._**
+**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde cero._**
 
 ## **_1. Introducción_**
 
