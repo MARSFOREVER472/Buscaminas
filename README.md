@@ -67,7 +67,7 @@
 </body>
 </html>
 ```
-Bien, vemos que un <div> es un contenedor, que se cierra con </div>. Esta tiene un id=”tablero”, para poder identificarlo luego y llamarlo por su nombre. Cada casilla del buscaminas podría ser un div ¿no?
+Bien, vemos que un ```<div>``` es un contenedor, que se cierra con ```</div>```. Esta tiene un id=”tablero”, para poder identificarlo luego y llamarlo por su nombre. Cada casilla del buscaminas podría ser un div ¿no?
 
 <div id="tablero">
   <div></div> <div></div> <div></div> <div></div>
