@@ -54,7 +54,7 @@
 
 ## 3. **_Pintar el tablero_**
 
-El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero.
+**_El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero._**
 
 <!DOCTYPE html>
 <html>
