@@ -55,7 +55,7 @@
 ## 3. **_Pintar el tablero_**
 
 **_El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero._**
-
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,6 +66,7 @@
   </div>
 </body>
 </html>
+```
 Bien, vemos que un <div> es un contenedor, que se cierra con </div>. Esta tiene un id=”tablero”, para poder identificarlo luego y llamarlo por su nombre. Cada casilla del buscaminas podría ser un div ¿no?
 
 <div id="tablero">
