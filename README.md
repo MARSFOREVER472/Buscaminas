@@ -115,6 +115,7 @@ Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier d
 
 Para eso nos vamos a nuestro fichero HTML y vaciamos de DIVs el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función pintarTablero()
 
+```
 function pintarTablero(numFilas, numColumnas){
     let tablero = document.querySelector("#tablero");
 
@@ -125,6 +126,8 @@ function pintarTablero(numFilas, numColumnas){
         }
     }
 }
+```
+
 Esta función recibe el número de filas y el número de columnas por parámetro.
 
 Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable
