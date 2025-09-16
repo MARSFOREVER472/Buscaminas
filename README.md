@@ -79,7 +79,7 @@
 </div>
 ```
 
-Aquí hay 12 casillas. Son pocas pero nos sirve para ilustrar nuestro ejemplo.
+**_Aquí hay 12 casillas. Son pocas pero nos sirve para ilustrar nuestro ejemplo._**
 
 Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS.
 
