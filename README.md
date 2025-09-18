@@ -52,7 +52,7 @@
 
 - **_Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le insto a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
 
-## 3. **_Pintar el tablero_**
+## **_3. Pintar el tablero_**
 
 **_El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero._**
 
