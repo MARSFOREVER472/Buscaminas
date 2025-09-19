@@ -1,8 +1,8 @@
 # **_Buscaminas_**
 
-## **_Cómo programar un Buscaminas en JavaScript_**
+## **_Cómo programar un Buscaminas utilizando JavaScript_**
 
-**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple de cero._**
+**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde cero._**
 
 ## **_1. Introducción_**
 
@@ -52,10 +52,11 @@
 
 - **_Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le insto a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
 
-## 3. **_Pintar el tablero_**
+## **_3. Pintar el tablero_**
 
-El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero.
+**_El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma de tabla. Lo primero que vamos a hacer es añadir en el <body> un contenedor donde pintar el tablero._**
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,16 +67,21 @@ El buscaminas tiene un tablero con un número de filas y columnas. Tiene forma d
   </div>
 </body>
 </html>
-Bien, vemos que un <div> es un contenedor, que se cierra con </div>. Esta tiene un id=”tablero”, para poder identificarlo luego y llamarlo por su nombre. Cada casilla del buscaminas podría ser un div ¿no?
+```
 
+**_Bien, vemos que un ```<div>``` es un contenedor, que se cierra con ```</div>```. Esta tiene un ```id=”tablero”```, para poder identificarlo luego y llamarlo por su nombre. Cada casilla del buscaminas podría ser un div ¿no?_**
+
+```
 <div id="tablero">
   <div></div> <div></div> <div></div> <div></div>
   <div></div> <div></div> <div></div> <div></div>
   <div></div> <div></div> <div></div> <div></div>
 </div>
-Aquí hay 12 casillas. Son pocas pero nos sirve para ilustrar nuestro ejemplo.
+```
 
-Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS.
+**_Aquí hay 12 casillas. Son pocas pero nos sirve para ilustrar nuestro ejemplo._**
+
+**_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
 
 Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css
 
@@ -109,6 +115,7 @@ Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier d
 
 Para eso nos vamos a nuestro fichero HTML y vaciamos de DIVs el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función pintarTablero()
 
+```
 function pintarTablero(numFilas, numColumnas){
     let tablero = document.querySelector("#tablero");
 
@@ -119,6 +126,8 @@ function pintarTablero(numFilas, numColumnas){
         }
     }
 }
+```
+
 Esta función recibe el número de filas y el número de columnas por parámetro.
 
 Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable
