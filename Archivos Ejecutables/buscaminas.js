@@ -30,16 +30,16 @@ function paintBoard(rowNumbers, columnNumbers)
             newDiv.addEventListener("click", uncover); // EVENTO CON EL BOTÓN IZQUIERDO DEL RATÓN.
             board.appendChild(newDiv);
 
-            /*
+            // BORRAMOS EL TABLERO ACTUAL...
 
             while (board.firstChild)
             {
-                // board.firstChild.removeEventListener("contextmenu", tag);
-                // board.firstChild.removeEventListener("click", uncover);
-                // board.removeChild(board.firstChild);
+                board.firstChild.removeEventListener("contextmenu", tag);
+                board.firstChild.removeEventListener("click", uncover);
+                board.removeChild(board.firstChild);
             }
             
-            */
+            
         }
     }
 }
