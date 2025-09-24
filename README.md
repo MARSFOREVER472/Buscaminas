@@ -94,6 +94,7 @@ En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que de
 }
 Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve.
 
+```
 #tablero div{
   background-color: #BBBBBB;
   border-left: 2px solid #D3D3D3;
@@ -103,6 +104,8 @@ Además, de indicamos que todos los div dentro de tablero tendrán un color de f
   text-align: center;
   line-height: 32px;
 }
+```
+
 Esos #A9A9A9 son colores RGB.
 
 Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también.
