@@ -85,7 +85,7 @@
 
 **_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css_**
 
-En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto.
+**_En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto._**
 
 ```
 #tablero{
