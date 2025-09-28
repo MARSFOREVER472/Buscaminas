@@ -86,12 +86,13 @@
 **_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css_**
 
 En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto.
-
+```
 #tablero{
   display:grid;
   grid-template-columns: repeat(4, 32px);
   grid-template-rows: repeat(3, 32px);
 }
+```
 Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve.
 
 ```
