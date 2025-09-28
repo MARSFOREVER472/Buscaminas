@@ -95,7 +95,7 @@
 }
 ```
 
-Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve.
+**_Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve._**
 
 ```
 #tablero div{
