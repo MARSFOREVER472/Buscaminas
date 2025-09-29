@@ -115,6 +115,10 @@ function countMinesAroundPerGrid(row, column)
             }
         }
     }
+
+    // Y GUARDAMOS CUÁNTAS MINAS HAY EN ESA POSICIÓN...
+
+    buscaminas.mineFields[row][column] = numberMinesAround;
 }
 
 function tag(e)
