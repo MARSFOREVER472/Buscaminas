@@ -141,6 +141,19 @@ function countMines()
     }
 }
 
+function start()
+{
+    buscaminas.rowNumbers = 10;
+    buscaminas.columnNumbers = 10;
+    buscaminas.maxNumberMines = 12;
+    paintBoard();
+    generateEmptymineFields();
+    shuffleMines();
+    countMines();
+}
+
+window.onload = start;
+
 function tag(e)
 {
 
