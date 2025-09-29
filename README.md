@@ -221,7 +221,7 @@ function pintarTablero(numFilas, numColumnas){
     }
 }
 Si refrescamos la pantalla y pintamos el tablero de nuevo nos dará un error, porque los escuchadores de eventos estamos intentando vincularlos a funciones que aún no hemos definido: marcar y destapar.
-
+```
 error-reference-error
 
 function marcar(evento){
@@ -231,6 +231,7 @@ function marcar(evento){
 function destapar(evento){
 
 }
+```
 Ya podemos recargar y comprobar el html generado.
 
 html generado IDs
