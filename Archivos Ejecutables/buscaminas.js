@@ -157,6 +157,13 @@ window.onload = start;
 function tag(e)
 {
 
+    if (e.type === "contextmenu")
+    {
+        console.log(e);
+        e.stopPropagation();
+        e.preventDefault();
+    }
+
 }
 
 function uncover(e)
