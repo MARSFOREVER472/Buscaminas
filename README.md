@@ -83,17 +83,21 @@
 
 **_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
 
-Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css
+**_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css_**
 
-En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto.
+**_En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto._**
 
+```
 #tablero{
   display:grid;
   grid-template-columns: repeat(4, 32px);
   grid-template-rows: repeat(3, 32px);
 }
-Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve.
+```
 
+**_Además, de indicamos que todos los div dentro de tablero tendrán un color de fondo gris, y con un borde de 2 píxeles, arriba y a la izquierda un poco más claro y abajo y a la derecha un poco más oscuro, para dar sensación de bisel, de relieve._**
+
+```
 #tablero div{
   background-color: #BBBBBB;
   border-left: 2px solid #D3D3D3;
@@ -103,6 +107,8 @@ Además, de indicamos que todos los div dentro de tablero tendrán un color de f
   text-align: center;
   line-height: 32px;
 }
+```
+
 Esos #A9A9A9 son colores RGB.
 
 Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también.
@@ -239,10 +245,11 @@ NOTA: para los nóveles la solución anterior es suficiente, pero los más aveza
 Mientras el elemento tablero tenga hijo, lo borro. Esto lo saca del DOM, es decir lo quita de la pantalla, pero sigue ocupando espacio en la memoria del navegador. Porque antes hemos vinculado un escuchador de evento sobre ese objeto. A eso se le llama “bindar” un evento sobre ese objeto. Eso quiere decir que hay una referencia a ese objeto y por lo tanto no lo limpiará de la memoria.
 
 Esta es una de las principales razones por las que las páginas web se degradan cuando llevan mucho tiempo funcionando. Y es que si no se hila fino, te vas dejando referencias a objetos. Ahora sí.
-
+```
 //borramos el tablero actual
 while (tablero.firstChild) {
         tablero.firstChild.removeEventListener("contextmenu",marcar);
         tablero.firstChild.removeEventListener("click",destapar);
         tablero.removeChild(tablero.firstChild);
 }
+```
