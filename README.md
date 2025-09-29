@@ -152,7 +152,7 @@ En la consola, escribimos pintarTablero(5,6)
 Pero se ve raro… Vemos un grid de 4×3 y unas pocas casillas debajo… ¿qué ha pasado? Realmente hemos creado 5×6 divs… 30 casillas, pero la hoja de estilos ha intentado repartirlas en una rejilla de 4×3. Lo que tenemos que cambiar es la definición de la rejilla.
 
 Para eso usaremos variables de CSS y las inicializaremos a unos valores por defecto.
-
+```
 :root{
   --num-columnas: 10;
   --num-filas: 10;
@@ -174,6 +174,7 @@ Para eso usaremos variables de CSS y las inicializaremos a unos valores por defe
   text-align: center;
   line-height: var(--size);
 }
+```
 Ahora, nuestra función de JavaScript deberá poder cambiar el valor de esas variables CSS.
 
 function pintarTablero(numFilas, numColumnas){
