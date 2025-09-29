@@ -177,6 +177,7 @@ Para eso usaremos variables de CSS y las inicializaremos a unos valores por defe
 ```
 Ahora, nuestra función de JavaScript deberá poder cambiar el valor de esas variables CSS.
 
+```
 function pintarTablero(numFilas, numColumnas){
     let tablero = document.querySelector("#tablero");
 
@@ -190,6 +191,7 @@ function pintarTablero(numFilas, numColumnas){
         }
     }
 }
+```
 con eso, colocamos en las variables CSS lo que recibimos como parámetros de entrada de la función.
 
 Si recargamos el navegador y en la consola ejecutamos pintarTablero(5,6) nos saldrá el tablero que le indiquemos.
