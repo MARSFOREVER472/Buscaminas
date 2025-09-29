@@ -121,6 +121,26 @@ function countMinesAroundPerGrid(row, column)
     buscaminas.mineFields[row][column] = numberMinesAround;
 }
 
+// ESTO TENEMOS QUE HACERLO PARA CADA CASILLA DEL TABLERO EN LA QUE NO HAYA UNA BOMBA YA...
+
+function countMines()
+{
+    // CONTAMOS CUÁNTAS MINAS HAY ALREDEDOR DE CADA CASILLA...
+
+    for (let row = 0; row < buscaminas.rowNumbers; row++)
+    {
+        for (let column = 0; column < buscaminas.columnNumbers; column++)
+        {
+            // SÓLO CONTAMOS SI ES DISTINTO DE BOMBA...
+
+            if (buscaminas.mineFields[row][column] != "B")
+            {
+                countMinesAroundPerGrid(row, column);
+            }
+        }
+    }
+}
+
 function tag(e)
 {
 
