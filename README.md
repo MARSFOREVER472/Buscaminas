@@ -109,7 +109,7 @@
 }
 ```
 
-Esos ```#A9A9A9``` son colores RGB.
+**_Esos ```#A9A9A9``` son colores RGB._**
 
 Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también.
 
