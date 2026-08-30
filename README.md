@@ -115,7 +115,7 @@
 
 **_Esos ```#A9A9A9``` son colores RGB._**
 
-Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también.
+**_Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también._**
 
 Si guardáis los archivos de texto y recargáis el navegador deberías ver:
 
