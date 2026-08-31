@@ -2,6 +2,19 @@
 
 // FUNCIÓN PARA ILUSTRAR EL TABLERO DEL JUEGO...
 
+function start()
+{
+    buscaminas.rowNumbers = 10;
+    buscaminas.columnNumbers = 10;
+    buscaminas.maxNumberMines = 12;
+    paintBoard();
+    generateEmptymineFields();
+    shuffleMines();
+    countMines();
+}
+
+window.onload = start;
+
 function paintBoard(rowNumbers, columnNumbers)
 {
     let board = document.querySelector("#board");
@@ -18,9 +31,9 @@ function paintBoard(rowNumbers, columnNumbers)
     document.querySelector("html").style.setProperty("--row-num", rowNumbers);
     document.querySelector("html").style.setProperty("--col-num", columnNumbers);
 
-    for (let i = 0; i < rowNumbers; i++)
+    for (let i = 0; i < buscaminas.rowNumbers; i++)
     {
-        for (let j = 0; j < columnNumbers; j++)
+        for (let j = 0; j < buscaminas.columnNumbers; j++)
         {
             let newDiv = document.createElement("div");
             newDiv.setAttribute("id", "i", + i + "_j" + j);
@@ -141,27 +154,47 @@ function countMines()
     }
 }
 
-function start()
-{
-    buscaminas.rowNumbers = 10;
-    buscaminas.columnNumbers = 10;
-    buscaminas.maxNumberMines = 12;
-    paintBoard();
-    generateEmptymineFields();
-    shuffleMines();
-    countMines();
-}
-
-window.onload = start;
-
 function tag(e)
 {
 
     if (e.type === "contextmenu")
     {
         console.log(e);
+        let casilla = e.currentTarget;
         e.stopPropagation();
         e.preventDefault();
+        let row = casilla.dataset.row;
+        let column = casilla.dataset.column;
+
+        if (row >= 0 && column >= 0 && row < buscaminas.rowNumbers && column < buscaminas.columnNumbers)
+        {
+            if (casilla.classList.contains("flag-icon"))
+            {
+                casilla.classList.remove("flag-icon");
+                casilla.classList.add("question-icon");
+                buscaminas.numberMinesFounded--;
+            }
+
+            else 
+                
+            if (casilla.classList.contains("question-icon"))
+            {
+                casilla.classList.remove("question-icon");
+            }
+
+            else
+
+            if (casilla.classList.length == 0)
+            {
+                casilla.classList.add("flag-icon");
+                buscaminas.numberMinesFounded++;
+
+                if (buscaminas.numberMinesFounded == buscaminas.maxNumberMines)
+                {
+                    buscaminas.solveBoard(true);
+                }
+            }
+        }
     }
 
 }
