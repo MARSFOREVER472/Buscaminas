@@ -87,7 +87,7 @@
 
 **_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
 
-**_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css_**
+**_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado ```estilos.css```_**
 
 **_En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto._**
 
