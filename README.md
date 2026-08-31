@@ -2,7 +2,7 @@
 
 ## **_Cómo programar un Buscaminas utilizando JavaScript_**
 
-**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde cero._**
+**_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde 0._**
 
 ## **_1. Introducción_**
 
@@ -11,13 +11,17 @@
 ### **_Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript..._**
 
 - **_HTML es la maquetación. Es como dentro de un periódico: defines las columnas, los titulares, la entradilla, los pies de foto, imágenes, etc…_**
+  
 - **_Con CSS le das estilos: tipo de letra, colores, márgenes, etc…_**
+  
 - **_Con JavaScript coges esos elementos básicos y haces cosas con ellos: los mueves, los transformas, les cambias su aspecto, etc…_**
 
 ### **_En este tutorial veremos cómo:_**
 
 - **_Dibujar en pantalla el tablero con archivos HTML y CSS._**
+  
 - **_Implementar la lógica del juego utilizando JavaScript._**
+  
 - **_Vincular eventos del ratón a acciones concretas._**
 
 ## **_2. Nuestra página HTML_**
@@ -83,7 +87,7 @@
 
 **_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
 
-**_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado estilos.css_**
+**_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado ```estilos.css```_**
 
 **_En él indicamos que el tablero se mostrará en forma de rejilla (grid) y que debe tener 3 filas y 4 columnas de 32 píxeles de ancho y alto._**
 
@@ -109,17 +113,17 @@
 }
 ```
 
-Esos #A9A9A9 son colores RGB.
+**_Esos ```#A9A9A9``` son colores RGB._**
 
-Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también.
+**_Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también._**
 
-Si guardáis los archivos de texto y recargáis el navegador deberías ver:
+**_Si guardáis los archivos de texto y recargáis el navegador deberías ver:_**
 
-Tablero buscaminas de 4x3
+**_Tablero buscaminas de 4x3_**
 
-Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier dimensión… Deberíamos poder pintar tantos div como casillas quisiéramos que tuviera nuestro buscaminas ¿no?
+**_Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier dimensión… Deberíamos poder pintar tantos div como casillas quisiéramos que tuviera nuestro buscaminas ¿no?_**
 
-Para eso nos vamos a nuestro fichero HTML y vaciamos de DIVs el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función pintarTablero()
+**_Para eso nos vamos a nuestro fichero HTML y vaciamos de DIV's el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función ```pintarTablero()```_**
 
 ```
 function pintarTablero(numFilas, numColumnas){
@@ -239,11 +243,12 @@ html generado IDs
 Vemos que se ha generado un id concatenando fila, guión bajo, y columna. Además se han creado unos atributos llamados data-fila y data-columna. A estos atributos llamados data- se les llama atributos personalizados y son un estándar de HTML.
 
 Otra cosa que debemos darnos cuenta es que si llamamos de nuevo a pintar añadirá divs a los que ya había. De alguna forma debemos vaciar el tablero cada vez que lo repintemos.
-
+```
 //borramos el tablero actual
 while (tablero.firstChild) {
   tablero.removeChild(tablero.firstChild);
 }
+```
 NOTA: para los nóveles la solución anterior es suficiente, pero los más avezados se habrán dado cuenta que eso puede dar lugar a “pérdida de memoria”, llamado por los programadores memory leak.
 
 Mientras el elemento tablero tenga hijo, lo borro. Esto lo saca del DOM, es decir lo quita de la pantalla, pero sigue ocupando espacio en la memoria del navegador. Porque antes hemos vinculado un escuchador de evento sobre ese objeto. A eso se le llama “bindar” un evento sobre ese objeto. Eso quiere decir que hay una referencia a ese objeto y por lo tanto no lo limpiará de la memoria.
