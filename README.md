@@ -123,7 +123,7 @@
 
 **_Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier dimensión… Deberíamos poder pintar tantos div como casillas quisiéramos que tuviera nuestro buscaminas ¿no?_**
 
-Para eso nos vamos a nuestro fichero HTML y vaciamos de DIVs el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función pintarTablero()
+**_Para eso nos vamos a nuestro fichero HTML y vaciamos de DIVs el tablero. Ahora debemos rellenarlos programaticamente con los que queramos cada vez. Nos vamos al fichero js/funciones.js y creamos la función pintarTablero()_**
 
 ```
 function pintarTablero(numFilas, numColumnas){
