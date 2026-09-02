@@ -154,7 +154,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_Pero se ve raro… Vemos un grid de 4×3 y unas pocas casillas debajo… ¿qué ha pasado? Realmente hemos creado 5×6 div's… 30 casillas, pero la hoja de estilos ha intentado repartirlas en una rejilla de 4×3. Lo que tenemos que cambiar es la definición de la rejilla._**
 
-Para eso usaremos variables de CSS y las inicializaremos a unos valores por defecto.
+**_Para eso usaremos variables de CSS y las inicializaremos a unos valores por defecto._**
 
 ```
 :root{
