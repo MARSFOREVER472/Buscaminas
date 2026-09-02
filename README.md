@@ -148,7 +148,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_NOTA: vemos que el bucle ```for``` empieza en 0 y es que en JavaScript, los arrays, los vectores, empiezan en 0. Esta es propio de muchos lenguajes de programación._**
 
-Guardamos y recargamos el navegador. Y abrimos la consola del navegador con F12 o con Alt + Cmd + I para macOs.
+**_Guardamos y recargamos el navegador. Y abrimos la consola del navegador con F12 o con Alt + Cmd + I para macOs._**
 
 En la consola, escribimos pintarTablero(5,6)
 
