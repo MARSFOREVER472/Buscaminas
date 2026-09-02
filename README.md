@@ -140,9 +140,10 @@ function pintarTablero(numFilas, numColumnas){
 
 **_Esta función recibe el número de filas y el número de columnas por parámetro._**
 
-**_Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable_**
+**_Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable:_**
 
     let tablero = document.querySelector("#tablero");
+    
 Luego para cada fila, para cada columna crea un div y se lo añade al tablero.
 
 NOTA: vemos que el bucle for empieza en 0 y es que en JavaScript, los arrays, los vectores, empiezan en 0. Esta es propio de muchos lenguajes de programación.
