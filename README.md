@@ -140,7 +140,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_Esta función recibe el número de filas y el número de columnas por parámetro._**
 
-Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable
+**_Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable_**
 
     let tablero = document.querySelector("#tablero");
 Luego para cada fila, para cada columna crea un div y se lo añade al tablero.
