@@ -146,7 +146,7 @@ function pintarTablero(numFilas, numColumnas){
     
 **_Luego para cada fila, para cada columna crea un div y se lo añade al tablero._**
 
-**_NOTA: vemos que el bucle for empieza en 0 y es que en JavaScript, los arrays, los vectores, empiezan en 0. Esta es propio de muchos lenguajes de programación._**
+**_NOTA: vemos que el bucle ```for``` empieza en 0 y es que en JavaScript, los arrays, los vectores, empiezan en 0. Esta es propio de muchos lenguajes de programación._**
 
 Guardamos y recargamos el navegador. Y abrimos la consola del navegador con F12 o con Alt + Cmd + I para macOs.
 
