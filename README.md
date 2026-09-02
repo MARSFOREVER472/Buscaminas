@@ -138,7 +138,7 @@ function pintarTablero(numFilas, numColumnas){
 }
 ```
 
-Esta función recibe el número de filas y el número de columnas por parámetro.
+**_Esta función recibe el número de filas y el número de columnas por parámetro._**
 
 Vemos que lo primero que hace es obtener el elemento tablero por su id y lo guarda en una variable
 
