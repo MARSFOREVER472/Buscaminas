@@ -179,7 +179,8 @@ function pintarTablero(numFilas, numColumnas){
   line-height: var(--size);
 }
 ```
-Ahora, nuestra función de JavaScript deberá poder cambiar el valor de esas variables CSS.
+
+**_Ahora, nuestra función de JavaScript deberá poder cambiar el valor de esas variables CSS._**
 
 ```
 function pintarTablero(numFilas, numColumnas){
