@@ -204,7 +204,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_Pintar tablero 5x12_**
 
-Si le dais con el botón derecho encima del tablero y le dais a “inspeccionar” os mostrará el HTML que ha generado dinámicamente y todos los divs.
+**_Si le das con el botón derecho encima del tablero y le dais a “inspeccionar” os mostrará el HTML que ha generado dinámicamente y todos los div's._**
 
 
 
