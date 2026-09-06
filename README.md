@@ -253,13 +253,14 @@ Otra cosa que debemos darnos cuenta es que si llamamos de nuevo a pintar añadir
 while (tablero.firstChild) {
   tablero.removeChild(tablero.firstChild);
 }
-```
+
 
 NOTA: para los nóveles la solución anterior es suficiente, pero los más avezados se habrán dado cuenta que eso puede dar lugar a “pérdida de memoria”, llamado por los programadores memory leak.
 
 Mientras el elemento tablero tenga hijo, lo borro. Esto lo saca del DOM, es decir lo quita de la pantalla, pero sigue ocupando espacio en la memoria del navegador. Porque antes hemos vinculado un escuchador de evento sobre ese objeto. A eso se le llama “bindar” un evento sobre ese objeto. Eso quiere decir que hay una referencia a ese objeto y por lo tanto no lo limpiará de la memoria.
 
 Esta es una de las principales razones por las que las páginas web se degradan cuando llevan mucho tiempo funcionando. Y es que si no se hila fino, te vas dejando referencias a objetos. Ahora sí.
+
 ```
 //borramos el tablero actual
 while (tablero.firstChild) {
