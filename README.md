@@ -225,6 +225,7 @@ function pintarTablero(numFilas, numColumnas){
         }
     }
 }
+```
 
 Si refrescamos la pantalla y pintamos el tablero de nuevo nos dará un error, porque los escuchadores de eventos estamos intentando vincularlos a funciones que aún no hemos definido: marcar y destapar.
 
