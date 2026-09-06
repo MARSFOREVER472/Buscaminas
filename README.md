@@ -241,9 +241,9 @@ function destapar(evento){
 }
 ```
 
-**_Ya podemos recargar y comprobar el html generado._**
+**_Ya podemos recargar y comprobar el HTML generado._**
 
-html generado IDs
+html generado ID's
 
 Vemos que se ha generado un id concatenando fila, guión bajo, y columna. Además se han creado unos atributos llamados data-fila y data-columna. A estos atributos llamados data- se les llama atributos personalizados y son un estándar de HTML.
 
