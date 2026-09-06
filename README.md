@@ -241,7 +241,7 @@ function destapar(evento){
 }
 ```
 
-Ya podemos recargar y comprobar el html generado.
+**_Ya podemos recargar y comprobar el html generado._**
 
 html generado IDs
 
