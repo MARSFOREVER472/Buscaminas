@@ -206,7 +206,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_Si le das con el botón derecho encima del tablero y le dais a “inspeccionar” os mostrará el HTML que ha generado dinámicamente y todos los div's._**
 
-Vemos que todos los divs son iguales, y no sabemos en qué fila y columna están. Para ello vamos a hacer uso de los atributos de datos personalizados. Les daremos un id propio a cada uno, y les vincularemos un escuchador de evento.
+**_Vemos que todos los div's son iguales, y no sabemos en qué fila y columna están. Para ello vamos a hacer uso de los atributos de datos personalizados. Les daremos un id propio a cada uno, y les vincularemos un escuchador de evento._**
 
 function pintarTablero(numFilas, numColumnas){
 ...
