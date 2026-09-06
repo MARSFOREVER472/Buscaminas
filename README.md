@@ -254,7 +254,7 @@ Otra cosa que debemos darnos cuenta es que si llamamos de nuevo a pintar añadir
 while (tablero.firstChild) {
   tablero.removeChild(tablero.firstChild);
 }
-
+```
 
 NOTA: para los nóveles la solución anterior es suficiente, pero los más avezados se habrán dado cuenta que eso puede dar lugar a “pérdida de memoria”, llamado por los programadores memory leak.
 
