@@ -247,7 +247,7 @@ function destapar(evento){
 
 **_Vemos que se ha generado un id concatenando fila, guión bajo, y columna. Además se han creado unos atributos llamados data-fila y data-columna. A estos atributos llamados data- se les llama atributos personalizados y son un estándar de HTML._**
 
-Otra cosa que debemos darnos cuenta es que si llamamos de nuevo a pintar añadirá divs a los que ya había. De alguna forma debemos vaciar el tablero cada vez que lo repintemos.
+**_Otra cosa que debemos darnos cuenta es que si llamamos de nuevo a pintar añadirá divs a los que ya había. De alguna forma debemos vaciar el tablero cada vez que lo repintemos._**
 
 ```
 //borramos el tablero actual
