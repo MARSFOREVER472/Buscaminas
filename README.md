@@ -6,7 +6,7 @@
 
 ## **_1. Introducción_**
 
-**_¿Por qué un Buscaminas?_**
+### **_¿Por qué un Buscaminas?_**
 
 **_Es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que pintar una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla._**
 
