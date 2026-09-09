@@ -1,6 +1,6 @@
 # **_Buscaminas_**
 
-## **_Cómo programar un Buscaminas utilizando JavaScript_**
+## **_Cómo programar un Buscaminas utilizando herramientas de JavaScript_**
 
 **_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde 0._**
 
