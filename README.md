@@ -8,7 +8,7 @@
 
 ### **_¿Por qué un Buscaminas?_**
 
-**_Es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que pintar una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla._**
+**_Es lo suficientemente conocido para que todo el mundo sepa cómo funciona, y su simplicidad no oculta los elementos básicos: habrá que colorear una pantalla y habrá eventos que desencadenan acciones que tendrán consecuencias sobre la pantalla._**
 
 ### **_Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript..._**
 
