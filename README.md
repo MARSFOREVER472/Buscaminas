@@ -22,7 +22,7 @@
 
 - **_Dibujar en pantalla el tablero con archivos HTML y CSS._**
   
-- **_Implementar la lógica del juego utilizando JavaScript._**
+- **_Implementar la lógica del juego utilizando herramientas de JavaScript._**
   
 - **_Vincular eventos del ratón a acciones concretas._**
 
