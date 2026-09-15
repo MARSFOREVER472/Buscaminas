@@ -4,7 +4,7 @@
 
 **_Este artículo es sobre todo para aquellos que no saben nada, nada de programación, y quiere ver cómo se hace. En este artículo les voy a enseñar a hacer un juego muy simple desde 0._**
 
-## **_1. Introducción_**
+## **_1.- Introducción_**
 
 ### **_¿Por qué un Buscaminas?_**
 
