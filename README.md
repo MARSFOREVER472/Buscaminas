@@ -20,7 +20,7 @@
 
 ### **_En este tutorial veremos cómo:_**
 
-- **_Dibujar en pantalla el tablero con archivos HTML y CSS._**
+- **_Dibujar en pantalla el tablero mediante archivos HTML y CSS._**
   
 - **_Implementar la lógica del juego utilizando herramientas de JavaScript._**
   
