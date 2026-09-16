@@ -87,7 +87,7 @@
 
 **_Aquí hay 12 casillas. Son pocas pero nos sirve para ilustrar nuestro ejemplo._**
 
-**_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada div un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
+**_Si guardamos y refrescamos la pantalla, no vemos nada. Sigue todo blanco. Es normal, no he hemos indicado a cada ```div``` un fondo, ni un borde ni nada. Tampoco le hemos indicado al tablero si los debe pintar en fila, uno debajo del otro o en columna. Eso se hace en CSS._**
 
 **_Vamos a crearnos el subdirectorio css y dentro un archivo de texto llamado ```estilos.css```_**
 
