@@ -56,7 +56,7 @@
 
 - **_De momento esos archivos no existen, pero ahora los crearemos._**
 
-- **_Si abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le insto a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
+- **_Si se abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le insto a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
 
 ## **_3. Pintar el tablero_**
 
