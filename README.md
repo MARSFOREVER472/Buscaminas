@@ -119,7 +119,7 @@
 
 **_Además le hemos indicado que el texto tiene que estar centrado y que la altura de la línea es 32 píxeles también._**
 
-**_Si guardáis los archivos de texto y recargáis el navegador deberías ver:_**
+**_Si guardas los archivos de texto y recargáis el navegador deberías ver:_**
 
 **_Tablero buscaminas de 4x3_**
 
