@@ -202,7 +202,7 @@ function pintarTablero(numFilas, numColumnas){
 
 **_...con eso, colocamos en las variables CSS lo que recibimos como parámetros de entrada de la función._**
 
-**_Si recargamos el navegador y en la consola ejecutamos pintarTablero(5,6) nos saldrá el tablero que le indiquemos._**
+**_Si recargamos el navegador y en la consola ejecutamos ```pintarTablero(5,6)``` nos saldrá el tablero que le indiquemos._**
 
 **_Pintar tablero 5x12_**
 
