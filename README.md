@@ -54,7 +54,7 @@
 
 - **_Indicamos una hoja de estilos que está ubicado en un subdirectorio “```css/estilos.css```” y un archivo de JavaScript en otro subdirectorio “```js/funciones.js```”_**
 
-- **_De momento esos archivos no existen, pero ahora los crearemos._**
+- **_Hasta el momento estos archivos no existen, pero ahora los crearemos._**
 
 - **_Si se abre el archivo con un navegador verá una página en blanco y la pestaña tendrá el nombre del título. Le insto a que lo cambie, grabe el fichero, y recargue el navegador. Verá cómo cambia._**
 
