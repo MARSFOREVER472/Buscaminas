@@ -12,7 +12,7 @@
 
 ### **_Los ladrillos básicos que emplearemos serán HTML, CSS y JavaScript..._**
 
-- **_HTML es la maquetación. Es como dentro de un periódico: defines las columnas, los titulares, la entradilla, los pies de foto, imágenes, etc…_**
+- **_HTML es la maquetación. Es como dentro de un periódico: defines las columnas, los titulares, la entradilla, los pies de foto, las imágenes, etc…_**
   
 - **_Con CSS le das estilos: tipo de letra, colores, márgenes, etc…_**
   
