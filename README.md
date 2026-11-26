@@ -121,7 +121,7 @@
 
 **_Si guardas los archivos de texto y recargáis el navegador deberías ver:_**
 
-**_Tablero buscaminas de 4x3_**
+### **_Tablero buscaminas de 4x3_**
 
 **_Bien, y si en vez de una rejilla de 3×4 quisiéramos una rejilla de cualquier dimensión… Deberíamos poder pintar tantos div como casillas quisiéramos que tuviera nuestro buscaminas ¿no?_**
 
